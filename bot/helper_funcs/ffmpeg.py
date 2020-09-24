@@ -185,7 +185,7 @@ async def take_screen_shot(video_file, output_directory, ttl):
         output_directory,
         str(time.time()) + ".jpg"
     )
-    if video_file.upper().endswith(("ABC")):
+    if video_file.upper().endswith(("WEBM")):
         file_genertor_command = [
             "ffmpeg",
             "-ss",
